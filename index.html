@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="A simply dice game">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, nofollow">
+    <title>Dicee</title>
+    <link rel="icon" type="image/png" href="./images/dice6.png">
+    <link rel="stylesheet" href="styles.css" />
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster" rel="stylesheet"/>
+    <script src="./dicee.js" async charset="utf-8"></script>
+  </head>
+  <body>
+    <main class="container">
+      <h1>🎲 Dicee 🎲</h1>      
+      <button class="name">Enter Players' name</button>
+      <!--Boite de dialogue qui va se matérialisé au click du bouton au dessus, qui sera centrée sur l'écran et au dessus de la page-->
+      <dialog id="player-modal">
+        <form method="dialog" autocomplete="off">
+          <div class="input-group">
+            <label for="player1">Player 1 :</label>
+            <input type="text" id="player1" name="player1" placeholder="Player 1">
+          </div>
+          <div class="input-group">
+            <label for="player2">Player 2 :</label>
+            <input type="text" id="player2" name="player2" placeholder="Player 2">
+          </div>
+          <div class="actions">
+            <button value="save" id="save-btn">Save</button>
+            <button value="cancel">Cancel</button>           
+          </div>
+        </form>
+      </dialog>
+      <button class="roll">ROLL !</button>
+      <div class="dice">
+        <p class="player1">Player 1</p>
+        <img class="img1" src="./images/dice6.png" draggable="false" alt="dice image"/>
+      </div>
+      <div class="dice">
+        <p class="player2">Player 2</p>
+        <img class="img2" src="./images/dice6.png" draggable="false" alt="dice image"/>
+      </div>
+    </main>
+    <footer>🎲 © 2026, Kilian Lecossois 🎲</footer>
+  </body>
+</html>
+
