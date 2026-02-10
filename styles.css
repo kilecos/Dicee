@@ -145,3 +145,34 @@ footer {
   text-align: center;
   font-family: 'Indie Flower', cursive;
 }
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 5rem;
+  }
+
+  .name, .roll {
+    font-size: 1.5rem;
+    padding: 5px 15px;
+  }
+
+  .roll {
+    margin-bottom: 15px;
+  }
+
+  p {
+    font-size: 1.5rem;
+  }
+
+  footer {
+    margin-top: 10%;
+  }
+
+}
+
+@media (max-width : 1050px) {
+  h1 {
+    font-size: 6rem;
+  }
+}
+
