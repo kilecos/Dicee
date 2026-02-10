@@ -147,12 +147,13 @@ footer {
 }
 
 @media (max-width: 768px) {
+
   h1 {
     font-size: 3.5rem;
   }
 
   img {
-    width : 50%;
+    width: 50%;
   }
 
   .name, .roll {
@@ -179,4 +180,3 @@ footer {
     font-size: 6rem;
   }
 }
-
