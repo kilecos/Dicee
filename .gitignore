@@ -1,0 +1,10 @@
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# Dossiers de configuration d'éditeurs
+.vscode/
+.idea/
+
+# Logs
+*.log
