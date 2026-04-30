@@ -4,7 +4,7 @@ Une application de jeu de dés pour simuler des lancers.
 Les joueurs peuvent entrer leur nom, lancer les dés et l'application affiche le nom du vainqueur en fonction du résultat du lancer.
 Réalisé en HTML, CSS et JavaScript.
 
-![Aperçu de l'appli](/public/preview.png)
+![Aperçu de l'appli](/images/preview.png)
 
 ## Fonctionnalités :
 
