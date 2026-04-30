@@ -1,20 +1,30 @@
-# Dicee
-Un jeu de dés simple, créé dans le cadre d'une formation en utilisant du HTML, CSS et JavaScript.
+# 🎲 Dicee
 
-Le fonctionnement initial est que nous avons un dé pour chacun des deux joueurs, qu'a chaque rafraichissement de la page la valeur des dés change et que le titre vient nous indiquer le joueur ayant eu le plus gros résultat.
+Une application de jeu de dés pour simuler des lancers.
+Les joueurs peuvent entrer leur nom, lancer les dés et l'application affiche le nom du vainqueur en fonction du résultat du lancer.
+Réalisé en HTML, CSS et JavaScript.
 
-J'ai décider de reprendre plus tard ce projet pour modifier son fonctionnement et son apparence :
+![Aperçu de l'appli](/public/preview.png)
 
-- Ajout d'un bouton pour faire le lancer de dés à la place que ceux ci soient lancés à chaque rechargement de page. Cela semblait moins laborieux pour l'utilisateur.
+## Fonctionnalités :
 
-- Remplacement des images des dés pour leur donner un aspect un peu plus "moderne" (les images ajoutées et présentent actuellement ont été générées par IA).
+- ✍️ Saisie du nom des joueurs dans une fenêtre modale et affichage des ces derniers au dessus de chaque dés
+- 🎲 Lancer du jeu par clic sur le bouton ROLL !
+- 🔢 Génération de nombres aléatoires pour chaque dés et affichage des image de dé correspondante à ces nombres
+- 🪧 Affichage du nom du vainqueur ou d'égalité à la place du titre de l'application
+- ❌ Réinitialisation du nom des joueurs si nouvelle saisie à vide dans la fenêtre modale
 
-- Ajout d'une animation sur les dés pour l'effet visuel d'un lancé de dés.
-  
-- Ajout d'une option de personnalisation de noms des joueurs. Initialement nous avions simplement "Player 1" et "Player 2", j'ai donc ajouter un nouveau bouton afin de pouvoir entrer le nom des joueurs pour personnaliser un peu le jeu.
-Au début ce bouton ouvrait deux fenêtres de prompt du navigateur dans lesquels on entrait le nom des joueurs. Cela fonctionnait bien mais manquait de personnalisation.
-Pour permettre la personnalisation de cette fenêtre, je suis parti sur un formulaire par le biais de la balise <dialog> reliée au bouton créé précédemment. J'ai ensuite programmé cette fenêtre pour que les noms entrés changent ceux écrit juste au dessus des dés et que les champs <input> soient réinitialisés lors d'une nouvelle ouverture de cette fenêtre.
+## Technologies :
 
-Idées d'ajouts futurs :
- - Ajout d'un écran de score et d'un bouton de reset des scores
- - Option de sélection du nombre de dés
+- HTML5 / CSS3
+- JavaScript
+
+## Démo en ligne :
+
+👉 [Tester l'appli](https://kilecos.github.io/Dicee/)
+
+## Lancer en local :
+
+1. Cloner le dépôt
+2. Ouvrir dans VS Code
+3. Lancer avec l'extension Live Server
