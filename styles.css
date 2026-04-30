@@ -141,9 +141,15 @@ img {
 
 footer {
   margin-top: 5%;
-  color: #EEEEEE;
   text-align: center;
   font-family: 'Indie Flower', cursive;
+}
+
+footer p {
+  color: #EEEEEE;
+  font-size: 1rem;
+  margin: 0;
+  font-weight: normal;
 }
 
 @media screen and (min-width : 768px) and (max-width : 1050px) {

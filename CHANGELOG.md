@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## [v1.0.1] - 2026-04-30
+### Modifié
+- Ajout du numéro de version dans le footer
+- Modification image de preview dans README.md
+
 ## [v1.0.0] - 2026-04-30
 ### Ajouté
 - Système de saisie des noms des joueurs via une fenêtre modale
